@@ -1,0 +1,6 @@
+framework module Pods_CALayer {
+  umbrella header "Pods-CALayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

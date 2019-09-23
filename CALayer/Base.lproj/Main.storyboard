@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CALayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKY-MB-OFZ">
+                                <rect key="frame" x="119" y="485" width="137" height="89"/>
+                                <color key="backgroundColor" red="0.30734436199999998" green="0.69822731599999999" blue="0.2699906715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="NBo-XP-Y63"/>
+                                    <constraint firstAttribute="height" constant="89" id="U7j-nh-a74"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Tap me!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Byt-J5-X7e"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="я" translatesAutoresizingMaskIntoConstraints="NO" id="8A4-eb-WGg">
+                                <rect key="frame" x="112.5" y="96" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8A4-eb-WGg" secondAttribute="height" multiplier="1:1" id="86U-oI-NyD"/>
+                                    <constraint firstAttribute="width" constant="150" id="dsk-7W-I9L"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mKY-MB-OFZ" secondAttribute="bottom" constant="93" id="HHr-F7-v1q"/>
+                            <constraint firstItem="8A4-eb-WGg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="hVU-yQ-bYs"/>
+                            <constraint firstItem="8A4-eb-WGg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u4O-yf-Zgd"/>
+                            <constraint firstItem="mKY-MB-OFZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yqq-Hm-mnl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="8A4-eb-WGg" id="air-Cv-cgQ"/>
+                        <outlet property="tapButton" destination="mKY-MB-OFZ" id="mMu-0W-SBD"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="247.19999999999999" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="я" width="720" height="960"/>
+    </resources>
+</document>

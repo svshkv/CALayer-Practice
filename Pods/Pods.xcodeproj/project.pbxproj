@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E6ECEFD4A76324AB2B056D40BF7D8E /* BackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EC5D13E6DCB5009B9A939148B75B3 /* BackgroundStyle.swift */; };
+		1259701FBBC0F0777AA7FAF9FB226DE9 /* PresentationSpringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64508B3AFFF33AC3DE9155819F0BCCB6 /* PresentationSpringProvider.swift */; };
+		12A2FE77D5D96630696F88A5F7F9073A /* PresentationAnimatorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AFEFDFCC087357434489049E0CBC38 /* PresentationAnimatorProvider.swift */; };
+		12F73C7BAD3088F4947906BC339217BB /* Spring+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EB3FBB5B6A6E714876E1564C6D5AFC /* Spring+Values.swift */; };
+		1450FB73D4DB8B22C5EB3ACA50AAF7AE /* FadePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7198482422655D89B2BAA14F860F847 /* FadePresentation.swift */; };
+		14537BA2ACCABECFAA8C14F109D5E439 /* PresentationSizeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EE6156F40C90DCF5F1DE80CB4D47A /* PresentationSizeProvider.swift */; };
+		14B1524D50725A88DC721440556FF8C1 /* Deprecation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D4E24D7A24B55EAAD68E43C20B23D4 /* Deprecation.swift */; };
+		152B71DF6B83CA240014D6C9E83AA832 /* InteractionConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D476A73F908B97EDF6826E07D7B4A0 /* InteractionConfigurationProvider.swift */; };
+		1E5ACFA2B5999153DF37F0156BC81C9A /* PresentationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E7878CC2DCFBD8E970B041881506C /* PresentationTiming.swift */; };
+		1F160708CFBF6808E9F5975860F20D18 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956534C151E25E2828478F3645659E7 /* Duration.swift */; };
+		212E896A91C6A6F39F2143BD108C84C3 /* PresentationAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082D5E8143FFCE8D3EB76142AEA65E5 /* PresentationAlignment.swift */; };
+		25686182A7EEE0FDA6CA906BB28FFE81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		28D2FA9E86439A530102EED17B6D6E7F /* DragMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC6F284CDB35016A1C37A6E0391DA2 /* DragMode.swift */; };
+		32C32ADA23045E826A33CFF3C1C62FEB /* PresentationWidthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3C8E43E38F73480A6DC0FCFCE14F0 /* PresentationWidthProvider.swift */; };
+		35CC8670D6E00ADC761B0AD9B898C937 /* SlidePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E514110C82004D12B27CC7A7B86B570A /* SlidePresentation.swift */; };
+		3A3F23D7CC5C70E9F5451D01D76687BF /* CoverPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D477FBFA4A45039991DBAFCAB0B3 /* CoverPresentation.swift */; };
+		3E6EC91EFF7268ABB7BC1018F8E79E2E /* PresentationHeightProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93967C0C660B7BE837B68A20CD9B870 /* PresentationHeightProvider.swift */; };
+		40461583281E9EFB0F0808078FF2E339 /* InteractionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537A715AA6FDB9B862C21EF3815E126 /* InteractionConfiguration.swift */; };
+		44C641422B460A83CB0BE7EEF8609089 /* Pods-CALayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0165493AD75503F059D8B33883E8CB5F /* Pods-CALayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		491F04834B12A349B48151CD840FDD5E /* PresentationInteractiveAnimatorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D334BB4A56AC1F08522CA2CA1E3E2A /* PresentationInteractiveAnimatorProvider.swift */; };
+		4E69A5CF43E865BBF7DFD2B764A35BCC /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB23BC200B6E611237D6189DD3565F /* Orientation.swift */; };
+		4EEB068CAEDFA087007906850ECB53F2 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA06A92B9D38EE2E775D1B41C8EA6 /* Size.swift */; };
+		53E2885B1FC52AD0487FC17D495B0788 /* Jelly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6484A8A75D701B63CDF8221C672ECC2 /* Jelly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E03C8873D1C44BBDFE904B001C4D12 /* ViewControllerSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F662C2957F62BD533442C3B2FBBF6 /* ViewControllerSizeCalculator.swift */; };
+		58F7735798010DF3001E67E9C315F706 /* PresentationTimingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C118E3A8DAE889265F3DBA001E3D679 /* PresentationTimingProtocol.swift */; };
+		5A9D5FA8308FF598ADA70A736D5C1B65 /* PresentationUIConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D123205EAC157FCF85FDB871BA8EB /* PresentationUIConfigurationProvider.swift */; };
+		5D9C40896F7795F48BFB38368CAC86FB /* PresentationTimingInformationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A2001981FDAEB78BFE0073F7F4ABF /* PresentationTimingInformationProvider.swift */; };
+		5E6EC2ACFE4A0065DD840A1AF5AC4365 /* PresentationAlignmentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4EAE995EB85B7E54941CF07F9994B7 /* PresentationAlignmentProvider.swift */; };
+		612635D2A31393F4B88D52BACCA7D70B /* PresentationMarginGuardsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499BB7BBA021E64EC94A177B9FB1178 /* PresentationMarginGuardsProvider.swift */; };
+		62FE8BFEB0A236EA12E3F82063D60923 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54231D91C075ADB26961A1A8FA5C7136 /* Spring.swift */; };
+		6B52D85DBADE4CF25943C14D4B0A3633 /* SlideAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18E125B7B3D940765EBEBE0E4A7F4E /* SlideAnimator.swift */; };
+		72345C1F3DEE32EDFF04DEE8F6083545 /* Pods-CALayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2579EE4E440E422A12E484723605541F /* Pods-CALayer-dummy.m */; };
+		7255A7F237B6F41A16D54CE4800FBD34 /* CoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9424F1B62FB0182FEC0793E072840D25 /* CoverAnimator.swift */; };
+		8369C788542C7C8C7760C889CD2BEF2E /* Size+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814D40475136A24FFB61CEC9D82A00 /* Size+Equatable.swift */; };
+		89B85D436BE066F037DCF2E7B59986FC /* PresentationDirectionShowProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D99D5D9EBCE7099D513281700280D2 /* PresentationDirectionShowProvider.swift */; };
+		8CDB918B14D8D674BBBEE63D5256230F /* Direction+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3DCB27C05E81645F3302531562259 /* Direction+Orientation.swift */; };
+		9E582D4AB9328188C23D09446A6A4CCB /* PresentationSizeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DBE64B64DE22FE2402569098CD836D /* PresentationSizeProtocol.swift */; };
+		A05A399095B3AE50C1FCE76BA83169AC /* FadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC72E23A24F651705D9C2A970BCB23 /* FadeAnimator.swift */; };
+		A457353B626C29183DB7BDBC827F9A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		B8785F8BC54289BF1C20AD4C266F9F1B /* Direction+EdgeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947B8F8C0D78209CFCE3B595A8378BB /* Direction+EdgeHelper.swift */; };
+		BB4B04C6D49A90EB347575B6EBD2F613 /* Jelly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E4237B22EFD19C0D9AF810D18C2F6 /* Jelly-dummy.m */; };
+		BC74C9630B9D38D3B190979EEB61E851 /* PresentationDirectionDismissProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E252ED345FC4026507C56B1293955B /* PresentationDirectionDismissProvider.swift */; };
+		BDA3078A746D4430D279FD249ED19F8A /* PresentationSingleSizeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D97AF45A83271FC78868E06742F53 /* PresentationSingleSizeProvider.swift */; };
+		BDCDF939EAEDEDF8FF056F883EA79473 /* UIView+RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCB5B6A1FD09F1CEA2B470BFD62F61 /* UIView+RoundCorners.swift */; };
+		C08AC0781D1BFCC783CAABD4B5A41B15 /* PresentationUIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBCB908BBCF6C7424325883AAB460A0 /* PresentationUIConfiguration.swift */; };
+		C33E2AED0B1CD305BBAE1A6FE938C1D0 /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F589DEDEA23E73C5D03E3978735B7E9 /* Presentation.swift */; };
+		C3B80375C0BB7256B455CFF502815C5D /* PresentationSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68DDA8ED5BAE2A2403C7678C985FD2A /* PresentationSize.swift */; };
+		C5A2DEC2B0E84D3B7919F33EA1818F0F /* InteractionMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58582B1FC69AD728A555C62925F48773 /* InteractionMode.swift */; };
+		C6EB5FA4AC898BCB32C1F764B74DE49A /* HorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CE9C403BD4D9F43C6F3F675B16620 /* HorizontalAlignment.swift */; };
+		C817B91B8D7ADEDEF343026ACEFCA7EA /* VerticalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B9DA15EA2645E6F7E88201E6C5C /* VerticalAlignment.swift */; };
+		CB79EC2833022377FA39EDF224624468 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A15743B049F08A309409F099BB94AD /* Animator.swift */; };
+		CB9B61417C2C66166BDBC2334E7D16FB /* UIViewControllerAnimatedTransitioning+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DFA60EE3F5BB6B0825B7922BA1E1D7 /* UIViewControllerAnimatedTransitioning+Convenience.swift */; };
+		D391DD51921A8E2598C2DCCAA9D3ABD4 /* InteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFC2C6511B2D4999F2ACBEA703D6FB /* InteractionController.swift */; };
+		D57DC01FED1A3FCC75FA2F1877EDBB1D /* LiveUpdateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155726CAA771FB720EAD4DE543BB8AFF /* LiveUpdateError.swift */; };
+		E0C9B108D7D8DAE68C8E75CB829E9474 /* AnimationCurve+AnimationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7335F6B35867D7B28DD3EB6E7FBCE /* AnimationCurve+AnimationOptions.swift */; };
+		E2595748FD90D2A8587B448F5B0CBD9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		E8768EF5484F8482807E289DC05BF704 /* PresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBBF8B7F3C06622676FE9FA36CD536 /* PresentationType.swift */; };
+		F3A06BBD89308B9E49F6E7D89273A703 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030C5E6444C971B1B7A35F2BFBCF3700 /* Constants.swift */; };
+		F9E87F8DAFBCE49FF01A306A40898149 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02472861574044CE58A9F5E384438029 /* Direction.swift */; };
+		FC63FD58810362A10616988EA286FE35 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9838819DEE8B75A1B3B1BDCF1833B646 /* PresentationController.swift */; };
+		FEEB51EE415575DE59A22C13F8FB8E2E /* CombinedTimingCurveProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A05E7E66A86920EB7238DA2E38988C /* CombinedTimingCurveProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6480CFCDA8E28F74DCE655DF5F8B0F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A19C9B832110E501A57865B81D1C27F;
+			remoteInfo = Jelly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0165493AD75503F059D8B33883E8CB5F /* Pods-CALayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CALayer-umbrella.h"; sourceTree = "<group>"; };
+		01D4E24D7A24B55EAAD68E43C20B23D4 /* Deprecation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecation.swift; path = Jelly/Classes/public/Deprecation.swift; sourceTree = "<group>"; };
+		02472861574044CE58A9F5E384438029 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = Jelly/Classes/public/Models/Configuration/Direction.swift; sourceTree = "<group>"; };
+		02A05E7E66A86920EB7238DA2E38988C /* CombinedTimingCurveProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedTimingCurveProvider.swift; path = Jelly/Classes/private/Models/CombinedTimingCurveProvider.swift; sourceTree = "<group>"; };
+		030C5E6444C971B1B7A35F2BFBCF3700 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Jelly/Classes/public/Constants.swift; sourceTree = "<group>"; };
+		05DB23BC200B6E611237D6189DD3565F /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Jelly/Classes/public/Models/Configuration/Orientation.swift; sourceTree = "<group>"; };
+		0DD3C8E43E38F73480A6DC0FCFCE14F0 /* PresentationWidthProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationWidthProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationWidthProvider.swift; sourceTree = "<group>"; };
+		14DBE64B64DE22FE2402569098CD836D /* PresentationSizeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationSizeProtocol.swift; path = Jelly/Classes/public/Models/Protocols/PresentationSizeProtocol.swift; sourceTree = "<group>"; };
+		155726CAA771FB720EAD4DE543BB8AFF /* LiveUpdateError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiveUpdateError.swift; path = Jelly/Classes/public/LiveUpdateError.swift; sourceTree = "<group>"; };
+		15F7E8BD10457CAFDDF095844B37555C /* Pods-CALayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CALayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17CFC2C6511B2D4999F2ACBEA703D6FB /* InteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractionController.swift; path = "Jelly/Classes/private/Animators/Interaction Controllers/InteractionController.swift"; sourceTree = "<group>"; };
+		1C814D40475136A24FFB61CEC9D82A00 /* Size+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Size+Equatable.swift"; path = "Jelly/Classes/public/Extensions/Size+Equatable.swift"; sourceTree = "<group>"; };
+		1E1FA06A92B9D38EE2E775D1B41C8EA6 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Jelly/Classes/public/Models/Configuration/Size.swift; sourceTree = "<group>"; };
+		2579EE4E440E422A12E484723605541F /* Pods-CALayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CALayer-dummy.m"; sourceTree = "<group>"; };
+		2C118E3A8DAE889265F3DBA001E3D679 /* PresentationTimingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationTimingProtocol.swift; path = Jelly/Classes/public/Models/Protocols/PresentationTimingProtocol.swift; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2F0CE9C403BD4D9F43C6F3F675B16620 /* HorizontalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalAlignment.swift; path = Jelly/Classes/public/Models/Configuration/HorizontalAlignment.swift; sourceTree = "<group>"; };
+		3557CC51D0CAB3352CF01A4D3EF3A356 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DFA60EE3F5BB6B0825B7922BA1E1D7 /* UIViewControllerAnimatedTransitioning+Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewControllerAnimatedTransitioning+Convenience.swift"; path = "Jelly/Classes/private/Extensions/UIViewControllerAnimatedTransitioning+Convenience.swift"; sourceTree = "<group>"; };
+		3B033E7707DDF5DE4694ACF8DBD526AC /* Pods-CALayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CALayer.debug.xcconfig"; sourceTree = "<group>"; };
+		3F589DEDEA23E73C5D03E3978735B7E9 /* Presentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentation.swift; path = Jelly/Classes/public/Models/Protocols/Presentation.swift; sourceTree = "<group>"; };
+		435F40B0F8C393E8C6AD5927295E2A9A /* Jelly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Jelly.framework; path = Jelly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACF6B9DA15EA2645E6F7E88201E6C5C /* VerticalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalAlignment.swift; path = Jelly/Classes/public/Models/Configuration/VerticalAlignment.swift; sourceTree = "<group>"; };
+		4CFCB5B6A1FD09F1CEA2B470BFD62F61 /* UIView+RoundCorners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RoundCorners.swift"; path = "Jelly/Classes/private/Extensions/UIView+RoundCorners.swift"; sourceTree = "<group>"; };
+		50D99D5D9EBCE7099D513281700280D2 /* PresentationDirectionShowProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationDirectionShowProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationDirectionShowProvider.swift; sourceTree = "<group>"; };
+		54231D91C075ADB26961A1A8FA5C7136 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Jelly/Classes/public/Models/Configuration/Spring.swift; sourceTree = "<group>"; };
+		57D6AD1C4C9E58202B7B3BFAD774011C /* Pods-CALayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CALayer.modulemap"; sourceTree = "<group>"; };
+		58582B1FC69AD728A555C62925F48773 /* InteractionMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractionMode.swift; path = Jelly/Classes/public/Models/Configuration/Presentation/InteractionMode.swift; sourceTree = "<group>"; };
+		64508B3AFFF33AC3DE9155819F0BCCB6 /* PresentationSpringProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationSpringProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationSpringProvider.swift; sourceTree = "<group>"; };
+		65FC72E23A24F651705D9C2A970BCB23 /* FadeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeAnimator.swift; path = "Jelly/Classes/private/Animators/Animated Animators/FadeAnimator.swift"; sourceTree = "<group>"; };
+		668F662C2957F62BD533442C3B2FBBF6 /* ViewControllerSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerSizeCalculator.swift; path = Jelly/Classes/private/ViewControllerSizeCalculator.swift; sourceTree = "<group>"; };
+		67D334BB4A56AC1F08522CA2CA1E3E2A /* PresentationInteractiveAnimatorProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationInteractiveAnimatorProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationInteractiveAnimatorProvider.swift; sourceTree = "<group>"; };
+		6EC3DCB27C05E81645F3302531562259 /* Direction+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Direction+Orientation.swift"; path = "Jelly/Classes/private/Extensions/Direction+Orientation.swift"; sourceTree = "<group>"; };
+		6F6A2001981FDAEB78BFE0073F7F4ABF /* PresentationTimingInformationProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationTimingInformationProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationTimingInformationProvider.swift; sourceTree = "<group>"; };
+		701E7878CC2DCFBD8E970B041881506C /* PresentationTiming.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationTiming.swift; path = Jelly/Classes/public/Models/Configuration/Presentation/PresentationTiming.swift; sourceTree = "<group>"; };
+		717EC5D13E6DCB5009B9A939148B75B3 /* BackgroundStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundStyle.swift; path = Jelly/Classes/public/Models/Configuration/BackgroundStyle.swift; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		78AFEFDFCC087357434489049E0CBC38 /* PresentationAnimatorProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationAnimatorProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationAnimatorProvider.swift; sourceTree = "<group>"; };
+		78F73BD68CB7BB5E81E72DE1AEB91D22 /* Jelly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Jelly.modulemap; sourceTree = "<group>"; };
+		83EB3FBB5B6A6E714876E1564C6D5AFC /* Spring+Values.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Spring+Values.swift"; path = "Jelly/Classes/private/Extensions/Spring+Values.swift"; sourceTree = "<group>"; };
+		86CE323B0C4FB153E7C2C6C9A485EEDF /* Pods-CALayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CALayer-resources.sh"; sourceTree = "<group>"; };
+		8FF7335F6B35867D7B28DD3EB6E7FBCE /* AnimationCurve+AnimationOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnimationCurve+AnimationOptions.swift"; path = "Jelly/Classes/private/Extensions/AnimationCurve+AnimationOptions.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9424F1B62FB0182FEC0793E072840D25 /* CoverAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverAnimator.swift; path = "Jelly/Classes/private/Animators/Animated Animators/CoverAnimator.swift"; sourceTree = "<group>"; };
+		9838819DEE8B75A1B3B1BDCF1833B646 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = Jelly/Classes/private/PresentationController.swift; sourceTree = "<group>"; };
+		9E92C15393C1888F0C8A85CF443F1061 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B218080E09F3DADF11CEE1891CC56622 /* Jelly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jelly-prefix.pch"; sourceTree = "<group>"; };
+		B537A715AA6FDB9B862C21EF3815E126 /* InteractionConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractionConfiguration.swift; path = Jelly/Classes/public/Models/Configuration/Presentation/InteractionConfiguration.swift; sourceTree = "<group>"; };
+		B93967C0C660B7BE837B68A20CD9B870 /* PresentationHeightProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationHeightProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationHeightProvider.swift; sourceTree = "<group>"; };
+		B947B8F8C0D78209CFCE3B595A8378BB /* Direction+EdgeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Direction+EdgeHelper.swift"; path = "Jelly/Classes/private/Extensions/Direction+EdgeHelper.swift"; sourceTree = "<group>"; };
+		C082D5E8143FFCE8D3EB76142AEA65E5 /* PresentationAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationAlignment.swift; path = Jelly/Classes/public/Models/Configuration/Presentation/PresentationAlignment.swift; sourceTree = "<group>"; };
+		C4DA74FA64973DDCC42D8F8D36EB7E77 /* Pods_CALayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CALayer.framework; path = "Pods-CALayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6484A8A75D701B63CDF8221C672ECC2 /* Jelly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jelly-umbrella.h"; sourceTree = "<group>"; };
+		C68DDA8ED5BAE2A2403C7678C985FD2A /* PresentationSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationSize.swift; path = Jelly/Classes/public/Models/Configuration/Presentation/PresentationSize.swift; sourceTree = "<group>"; };
+		CAFBBF8B7F3C06622676FE9FA36CD536 /* PresentationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationType.swift; path = Jelly/Classes/private/Models/PresentationType.swift; sourceTree = "<group>"; };
+		CB6BFA0FE7242237099462D87E232E90 /* Pods-CALayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CALayer-frameworks.sh"; sourceTree = "<group>"; };
+		CC6928A041AEC047FAF4ED088123870B /* Pods-CALayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CALayer.release.xcconfig"; sourceTree = "<group>"; };
+		CF18E125B7B3D940765EBEBE0E4A7F4E /* SlideAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideAnimator.swift; path = "Jelly/Classes/private/Animators/Animated Animators/SlideAnimator.swift"; sourceTree = "<group>"; };
+		D09E4237B22EFD19C0D9AF810D18C2F6 /* Jelly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Jelly-dummy.m"; sourceTree = "<group>"; };
+		D956534C151E25E2828478F3645659E7 /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Jelly/Classes/public/Models/Configuration/Duration.swift; sourceTree = "<group>"; };
+		DCBCB908BBCF6C7424325883AAB460A0 /* PresentationUIConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationUIConfiguration.swift; path = Jelly/Classes/public/Models/Configuration/Presentation/PresentationUIConfiguration.swift; sourceTree = "<group>"; };
+		E3D476A73F908B97EDF6826E07D7B4A0 /* InteractionConfigurationProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractionConfigurationProvider.swift; path = Jelly/Classes/public/Models/Protocols/InteractionConfigurationProvider.swift; sourceTree = "<group>"; };
+		E514110C82004D12B27CC7A7B86B570A /* SlidePresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlidePresentation.swift; path = Jelly/Classes/public/Models/Presentations/SlidePresentation.swift; sourceTree = "<group>"; };
+		E5AC6F284CDB35016A1C37A6E0391DA2 /* DragMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragMode.swift; path = Jelly/Classes/public/Models/Configuration/DragMode.swift; sourceTree = "<group>"; };
+		E7198482422655D89B2BAA14F860F847 /* FadePresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadePresentation.swift; path = Jelly/Classes/public/Models/Presentations/FadePresentation.swift; sourceTree = "<group>"; };
+		EA5D97AF45A83271FC78868E06742F53 /* PresentationSingleSizeProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationSingleSizeProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationSingleSizeProvider.swift; sourceTree = "<group>"; };
+		F0E252ED345FC4026507C56B1293955B /* PresentationDirectionDismissProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationDirectionDismissProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationDirectionDismissProvider.swift; sourceTree = "<group>"; };
+		F1A15743B049F08A309409F099BB94AD /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Jelly/Classes/public/Animator.swift; sourceTree = "<group>"; };
+		F23CAAB75D1F717F213EB6B58F2A5788 /* Pods-CALayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CALayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		F499BB7BBA021E64EC94A177B9FB1178 /* PresentationMarginGuardsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationMarginGuardsProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationMarginGuardsProvider.swift; sourceTree = "<group>"; };
+		F505D477FBFA4A45039991DBAFCAB0B3 /* CoverPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverPresentation.swift; path = Jelly/Classes/public/Models/Presentations/CoverPresentation.swift; sourceTree = "<group>"; };
+		F6C19647760C718DC9E4F360A732E3BB /* Jelly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Jelly.xcconfig; sourceTree = "<group>"; };
+		F74EE6156F40C90DCF5F1DE80CB4D47A /* PresentationSizeProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationSizeProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationSizeProvider.swift; sourceTree = "<group>"; };
+		F80D123205EAC157FCF85FDB871BA8EB /* PresentationUIConfigurationProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationUIConfigurationProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationUIConfigurationProvider.swift; sourceTree = "<group>"; };
+		FE4EAE995EB85B7E54941CF07F9994B7 /* PresentationAlignmentProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationAlignmentProvider.swift; path = Jelly/Classes/public/Models/Protocols/PresentationAlignmentProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F3FD3FE51269EA982D4C19A155D170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2595748FD90D2A8587B448F5B0CBD9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCE35837D29D2617A9CADB0567FDDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25686182A7EEE0FDA6CA906BB28FFE81 /* Foundation.framework in Frameworks */,
+				A457353B626C29183DB7BDBC827F9A8C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0487550BED6C39C419EA5F6F9B68E2C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A931977BE5B4B6E388DDA66485D8566 /* Jelly */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		31AA6705C83669448F7F92F73D9818DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435F40B0F8C393E8C6AD5927295E2A9A /* Jelly.framework */,
+				C4DA74FA64973DDCC42D8F8D36EB7E77 /* Pods_CALayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44AE6B96E0993F5BB0053D04178EF59F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E89920ED3EF3A0AEE9FD54A7F70F88D /* Pods-CALayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0487550BED6C39C419EA5F6F9B68E2C4 /* Pods */,
+				31AA6705C83669448F7F92F73D9818DC /* Products */,
+				44AE6B96E0993F5BB0053D04178EF59F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A931977BE5B4B6E388DDA66485D8566 /* Jelly */ = {
+			isa = PBXGroup;
+			children = (
+				8FF7335F6B35867D7B28DD3EB6E7FBCE /* AnimationCurve+AnimationOptions.swift */,
+				F1A15743B049F08A309409F099BB94AD /* Animator.swift */,
+				717EC5D13E6DCB5009B9A939148B75B3 /* BackgroundStyle.swift */,
+				02A05E7E66A86920EB7238DA2E38988C /* CombinedTimingCurveProvider.swift */,
+				030C5E6444C971B1B7A35F2BFBCF3700 /* Constants.swift */,
+				9424F1B62FB0182FEC0793E072840D25 /* CoverAnimator.swift */,
+				F505D477FBFA4A45039991DBAFCAB0B3 /* CoverPresentation.swift */,
+				01D4E24D7A24B55EAAD68E43C20B23D4 /* Deprecation.swift */,
+				02472861574044CE58A9F5E384438029 /* Direction.swift */,
+				B947B8F8C0D78209CFCE3B595A8378BB /* Direction+EdgeHelper.swift */,
+				6EC3DCB27C05E81645F3302531562259 /* Direction+Orientation.swift */,
+				E5AC6F284CDB35016A1C37A6E0391DA2 /* DragMode.swift */,
+				D956534C151E25E2828478F3645659E7 /* Duration.swift */,
+				65FC72E23A24F651705D9C2A970BCB23 /* FadeAnimator.swift */,
+				E7198482422655D89B2BAA14F860F847 /* FadePresentation.swift */,
+				2F0CE9C403BD4D9F43C6F3F675B16620 /* HorizontalAlignment.swift */,
+				B537A715AA6FDB9B862C21EF3815E126 /* InteractionConfiguration.swift */,
+				E3D476A73F908B97EDF6826E07D7B4A0 /* InteractionConfigurationProvider.swift */,
+				17CFC2C6511B2D4999F2ACBEA703D6FB /* InteractionController.swift */,
+				58582B1FC69AD728A555C62925F48773 /* InteractionMode.swift */,
+				155726CAA771FB720EAD4DE543BB8AFF /* LiveUpdateError.swift */,
+				05DB23BC200B6E611237D6189DD3565F /* Orientation.swift */,
+				3F589DEDEA23E73C5D03E3978735B7E9 /* Presentation.swift */,
+				C082D5E8143FFCE8D3EB76142AEA65E5 /* PresentationAlignment.swift */,
+				FE4EAE995EB85B7E54941CF07F9994B7 /* PresentationAlignmentProvider.swift */,
+				78AFEFDFCC087357434489049E0CBC38 /* PresentationAnimatorProvider.swift */,
+				9838819DEE8B75A1B3B1BDCF1833B646 /* PresentationController.swift */,
+				F0E252ED345FC4026507C56B1293955B /* PresentationDirectionDismissProvider.swift */,
+				50D99D5D9EBCE7099D513281700280D2 /* PresentationDirectionShowProvider.swift */,
+				B93967C0C660B7BE837B68A20CD9B870 /* PresentationHeightProvider.swift */,
+				67D334BB4A56AC1F08522CA2CA1E3E2A /* PresentationInteractiveAnimatorProvider.swift */,
+				F499BB7BBA021E64EC94A177B9FB1178 /* PresentationMarginGuardsProvider.swift */,
+				EA5D97AF45A83271FC78868E06742F53 /* PresentationSingleSizeProvider.swift */,
+				C68DDA8ED5BAE2A2403C7678C985FD2A /* PresentationSize.swift */,
+				14DBE64B64DE22FE2402569098CD836D /* PresentationSizeProtocol.swift */,
+				F74EE6156F40C90DCF5F1DE80CB4D47A /* PresentationSizeProvider.swift */,
+				64508B3AFFF33AC3DE9155819F0BCCB6 /* PresentationSpringProvider.swift */,
+				701E7878CC2DCFBD8E970B041881506C /* PresentationTiming.swift */,
+				6F6A2001981FDAEB78BFE0073F7F4ABF /* PresentationTimingInformationProvider.swift */,
+				2C118E3A8DAE889265F3DBA001E3D679 /* PresentationTimingProtocol.swift */,
+				CAFBBF8B7F3C06622676FE9FA36CD536 /* PresentationType.swift */,
+				DCBCB908BBCF6C7424325883AAB460A0 /* PresentationUIConfiguration.swift */,
+				F80D123205EAC157FCF85FDB871BA8EB /* PresentationUIConfigurationProvider.swift */,
+				0DD3C8E43E38F73480A6DC0FCFCE14F0 /* PresentationWidthProvider.swift */,
+				1E1FA06A92B9D38EE2E775D1B41C8EA6 /* Size.swift */,
+				1C814D40475136A24FFB61CEC9D82A00 /* Size+Equatable.swift */,
+				CF18E125B7B3D940765EBEBE0E4A7F4E /* SlideAnimator.swift */,
+				E514110C82004D12B27CC7A7B86B570A /* SlidePresentation.swift */,
+				54231D91C075ADB26961A1A8FA5C7136 /* Spring.swift */,
+				83EB3FBB5B6A6E714876E1564C6D5AFC /* Spring+Values.swift */,
+				4CFCB5B6A1FD09F1CEA2B470BFD62F61 /* UIView+RoundCorners.swift */,
+				38DFA60EE3F5BB6B0825B7922BA1E1D7 /* UIViewControllerAnimatedTransitioning+Convenience.swift */,
+				4ACF6B9DA15EA2645E6F7E88201E6C5C /* VerticalAlignment.swift */,
+				668F662C2957F62BD533442C3B2FBBF6 /* ViewControllerSizeCalculator.swift */,
+				B6BCEE2839C3B4DEC93D64C37762BE66 /* Support Files */,
+			);
+			name = Jelly;
+			path = Jelly;
+			sourceTree = "<group>";
+		};
+		8E89920ED3EF3A0AEE9FD54A7F70F88D /* Pods-CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				3557CC51D0CAB3352CF01A4D3EF3A356 /* Info.plist */,
+				57D6AD1C4C9E58202B7B3BFAD774011C /* Pods-CALayer.modulemap */,
+				15F7E8BD10457CAFDDF095844B37555C /* Pods-CALayer-acknowledgements.markdown */,
+				F23CAAB75D1F717F213EB6B58F2A5788 /* Pods-CALayer-acknowledgements.plist */,
+				2579EE4E440E422A12E484723605541F /* Pods-CALayer-dummy.m */,
+				CB6BFA0FE7242237099462D87E232E90 /* Pods-CALayer-frameworks.sh */,
+				86CE323B0C4FB153E7C2C6C9A485EEDF /* Pods-CALayer-resources.sh */,
+				0165493AD75503F059D8B33883E8CB5F /* Pods-CALayer-umbrella.h */,
+				3B033E7707DDF5DE4694ACF8DBD526AC /* Pods-CALayer.debug.xcconfig */,
+				CC6928A041AEC047FAF4ED088123870B /* Pods-CALayer.release.xcconfig */,
+			);
+			name = "Pods-CALayer";
+			path = "Target Support Files/Pods-CALayer";
+			sourceTree = "<group>";
+		};
+		B6BCEE2839C3B4DEC93D64C37762BE66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E92C15393C1888F0C8A85CF443F1061 /* Info.plist */,
+				78F73BD68CB7BB5E81E72DE1AEB91D22 /* Jelly.modulemap */,
+				F6C19647760C718DC9E4F360A732E3BB /* Jelly.xcconfig */,
+				D09E4237B22EFD19C0D9AF810D18C2F6 /* Jelly-dummy.m */,
+				B218080E09F3DADF11CEE1891CC56622 /* Jelly-prefix.pch */,
+				C6484A8A75D701B63CDF8221C672ECC2 /* Jelly-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Jelly";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD0E4E7E27872FBD673034D0989418ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E2885B1FC52AD0487FC17D495B0788 /* Jelly-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4517AF952EA44FEC6DAFFA37627F531 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C641422B460A83CB0BE7EEF8609089 /* Pods-CALayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A19C9B832110E501A57865B81D1C27F /* Jelly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE90B646031496278D03ED69413E71A /* Build configuration list for PBXNativeTarget "Jelly" */;
+			buildPhases = (
+				BD0E4E7E27872FBD673034D0989418ED /* Headers */,
+				2C37896FA30681325FC7F65B86C86B77 /* Sources */,
+				ABCE35837D29D2617A9CADB0567FDDE3 /* Frameworks */,
+				C19E07A9AEF0EED9DD1BA8BE3A43325D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jelly;
+			productName = Jelly;
+			productReference = 435F40B0F8C393E8C6AD5927295E2A9A /* Jelly.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C55C6374EB9B1CA15A53660230F7B5A9 /* Pods-CALayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBC7DD7FF841360576B53FDD02929BE /* Build configuration list for PBXNativeTarget "Pods-CALayer" */;
+			buildPhases = (
+				F4517AF952EA44FEC6DAFFA37627F531 /* Headers */,
+				C562B3E5AC89643E5ABFF9BBA69331CE /* Sources */,
+				12F3FD3FE51269EA982D4C19A155D170 /* Frameworks */,
+				BAF5470CF6F738D8E7462ED68BD853C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84BF946C4F4013BD9287762690B1BAF /* PBXTargetDependency */,
+			);
+			name = "Pods-CALayer";
+			productName = "Pods-CALayer";
+			productReference = C4DA74FA64973DDCC42D8F8D36EB7E77 /* Pods_CALayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31AA6705C83669448F7F92F73D9818DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A19C9B832110E501A57865B81D1C27F /* Jelly */,
+				C55C6374EB9B1CA15A53660230F7B5A9 /* Pods-CALayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF5470CF6F738D8E7462ED68BD853C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19E07A9AEF0EED9DD1BA8BE3A43325D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C37896FA30681325FC7F65B86C86B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C9B108D7D8DAE68C8E75CB829E9474 /* AnimationCurve+AnimationOptions.swift in Sources */,
+				CB79EC2833022377FA39EDF224624468 /* Animator.swift in Sources */,
+				03E6ECEFD4A76324AB2B056D40BF7D8E /* BackgroundStyle.swift in Sources */,
+				FEEB51EE415575DE59A22C13F8FB8E2E /* CombinedTimingCurveProvider.swift in Sources */,
+				F3A06BBD89308B9E49F6E7D89273A703 /* Constants.swift in Sources */,
+				7255A7F237B6F41A16D54CE4800FBD34 /* CoverAnimator.swift in Sources */,
+				3A3F23D7CC5C70E9F5451D01D76687BF /* CoverPresentation.swift in Sources */,
+				14B1524D50725A88DC721440556FF8C1 /* Deprecation.swift in Sources */,
+				B8785F8BC54289BF1C20AD4C266F9F1B /* Direction+EdgeHelper.swift in Sources */,
+				8CDB918B14D8D674BBBEE63D5256230F /* Direction+Orientation.swift in Sources */,
+				F9E87F8DAFBCE49FF01A306A40898149 /* Direction.swift in Sources */,
+				28D2FA9E86439A530102EED17B6D6E7F /* DragMode.swift in Sources */,
+				1F160708CFBF6808E9F5975860F20D18 /* Duration.swift in Sources */,
+				A05A399095B3AE50C1FCE76BA83169AC /* FadeAnimator.swift in Sources */,
+				1450FB73D4DB8B22C5EB3ACA50AAF7AE /* FadePresentation.swift in Sources */,
+				C6EB5FA4AC898BCB32C1F764B74DE49A /* HorizontalAlignment.swift in Sources */,
+				40461583281E9EFB0F0808078FF2E339 /* InteractionConfiguration.swift in Sources */,
+				152B71DF6B83CA240014D6C9E83AA832 /* InteractionConfigurationProvider.swift in Sources */,
+				D391DD51921A8E2598C2DCCAA9D3ABD4 /* InteractionController.swift in Sources */,
+				C5A2DEC2B0E84D3B7919F33EA1818F0F /* InteractionMode.swift in Sources */,
+				BB4B04C6D49A90EB347575B6EBD2F613 /* Jelly-dummy.m in Sources */,
+				D57DC01FED1A3FCC75FA2F1877EDBB1D /* LiveUpdateError.swift in Sources */,
+				4E69A5CF43E865BBF7DFD2B764A35BCC /* Orientation.swift in Sources */,
+				C33E2AED0B1CD305BBAE1A6FE938C1D0 /* Presentation.swift in Sources */,
+				212E896A91C6A6F39F2143BD108C84C3 /* PresentationAlignment.swift in Sources */,
+				5E6EC2ACFE4A0065DD840A1AF5AC4365 /* PresentationAlignmentProvider.swift in Sources */,
+				12A2FE77D5D96630696F88A5F7F9073A /* PresentationAnimatorProvider.swift in Sources */,
+				FC63FD58810362A10616988EA286FE35 /* PresentationController.swift in Sources */,
+				BC74C9630B9D38D3B190979EEB61E851 /* PresentationDirectionDismissProvider.swift in Sources */,
+				89B85D436BE066F037DCF2E7B59986FC /* PresentationDirectionShowProvider.swift in Sources */,
+				3E6EC91EFF7268ABB7BC1018F8E79E2E /* PresentationHeightProvider.swift in Sources */,
+				491F04834B12A349B48151CD840FDD5E /* PresentationInteractiveAnimatorProvider.swift in Sources */,
+				612635D2A31393F4B88D52BACCA7D70B /* PresentationMarginGuardsProvider.swift in Sources */,
+				BDA3078A746D4430D279FD249ED19F8A /* PresentationSingleSizeProvider.swift in Sources */,
+				C3B80375C0BB7256B455CFF502815C5D /* PresentationSize.swift in Sources */,
+				9E582D4AB9328188C23D09446A6A4CCB /* PresentationSizeProtocol.swift in Sources */,
+				14537BA2ACCABECFAA8C14F109D5E439 /* PresentationSizeProvider.swift in Sources */,
+				1259701FBBC0F0777AA7FAF9FB226DE9 /* PresentationSpringProvider.swift in Sources */,
+				1E5ACFA2B5999153DF37F0156BC81C9A /* PresentationTiming.swift in Sources */,
+				5D9C40896F7795F48BFB38368CAC86FB /* PresentationTimingInformationProvider.swift in Sources */,
+				58F7735798010DF3001E67E9C315F706 /* PresentationTimingProtocol.swift in Sources */,
+				E8768EF5484F8482807E289DC05BF704 /* PresentationType.swift in Sources */,
+				C08AC0781D1BFCC783CAABD4B5A41B15 /* PresentationUIConfiguration.swift in Sources */,
+				5A9D5FA8308FF598ADA70A736D5C1B65 /* PresentationUIConfigurationProvider.swift in Sources */,
+				32C32ADA23045E826A33CFF3C1C62FEB /* PresentationWidthProvider.swift in Sources */,
+				8369C788542C7C8C7760C889CD2BEF2E /* Size+Equatable.swift in Sources */,
+				4EEB068CAEDFA087007906850ECB53F2 /* Size.swift in Sources */,
+				6B52D85DBADE4CF25943C14D4B0A3633 /* SlideAnimator.swift in Sources */,
+				35CC8670D6E00ADC761B0AD9B898C937 /* SlidePresentation.swift in Sources */,
+				12F73C7BAD3088F4947906BC339217BB /* Spring+Values.swift in Sources */,
+				62FE8BFEB0A236EA12E3F82063D60923 /* Spring.swift in Sources */,
+				BDCDF939EAEDEDF8FF056F883EA79473 /* UIView+RoundCorners.swift in Sources */,
+				CB9B61417C2C66166BDBC2334E7D16FB /* UIViewControllerAnimatedTransitioning+Convenience.swift in Sources */,
+				C817B91B8D7ADEDEF343026ACEFCA7EA /* VerticalAlignment.swift in Sources */,
+				58E03C8873D1C44BBDFE904B001C4D12 /* ViewControllerSizeCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C562B3E5AC89643E5ABFF9BBA69331CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72345C1F3DEE32EDFF04DEE8F6083545 /* Pods-CALayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F84BF946C4F4013BD9287762690B1BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Jelly;
+			target = 4A19C9B832110E501A57865B81D1C27F /* Jelly */;
+			targetProxy = 6480CFCDA8E28F74DCE655DF5F8B0F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06E2FABE4F713BBEF631217F79C3C43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1BD50E3D1713A37F00A6A95722A50F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59F52E25CB2BE423ACAD89807060F176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C19647760C718DC9E4F360A732E3BB /* Jelly.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Jelly/Jelly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Jelly/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Jelly/Jelly.modulemap";
+				PRODUCT_MODULE_NAME = Jelly;
+				PRODUCT_NAME = Jelly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BA029EF6FA1D44549569C3D868D0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C19647760C718DC9E4F360A732E3BB /* Jelly.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Jelly/Jelly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Jelly/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Jelly/Jelly.modulemap";
+				PRODUCT_MODULE_NAME = Jelly;
+				PRODUCT_NAME = Jelly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CE080B2465AF8232631AD6B40625E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B033E7707DDF5DE4694ACF8DBD526AC /* Pods-CALayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CALayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CALayer/Pods-CALayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB3A254B69C2F587214BCF024479D867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6928A041AEC047FAF4ED088123870B /* Pods-CALayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CALayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CALayer/Pods-CALayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CBC7DD7FF841360576B53FDD02929BE /* Build configuration list for PBXNativeTarget "Pods-CALayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE080B2465AF8232631AD6B40625E27 /* Debug */,
+				CB3A254B69C2F587214BCF024479D867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E2FABE4F713BBEF631217F79C3C43B /* Debug */,
+				1BD50E3D1713A37F00A6A95722A50F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE90B646031496278D03ED69413E71A /* Build configuration list for PBXNativeTarget "Jelly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F52E25CB2BE423ACAD89807060F176 /* Debug */,
+				7BA029EF6FA1D44549569C3D868D0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
